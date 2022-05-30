@@ -1,0 +1,159 @@
+-- Index
+    |
+    +-- Animation Section
+    |     |
+    |     +-- $ sudo run website --usestack django
+    |     |
+    |     +-- Loading... 
+    |
+    +-- Welcome Section
+    |     |
+    |     +-- Howdy! My name is
+    |     |    
+    |     +-- Irving Martinez.
+    |     |
+    |     +-- I solve problems with code.
+    |     |
+    |     +-- I write software both professionally and as a hobby and have been so for years. Currently, I’m building python apps at Optum Financial.
+    |
+    +-- Bio Section
+    |     |
+    |     +-- LinkedIn Profile Photo
+    |     |
+    |     +-- Hello. I’m Irving, and I’m a backend software engineer. I started my programming journey back in college when I took an intro to Java course. It was love at first sight—or should I say execution? Ahem…Anyway, shortly after college I ended up working different jobs where I looked for ways to apply my new skills and solve real business problems.
+    |     |
+    |     +-- I’ve had the privilege of working on dozens of challenging projects where I had to teach myself different tech stacks to get the job done. Slowly but surely, my programming skills got better and better to the point where I was finally confident enough to go for a software developer position. Needless to say, the hard work paid off.
+    |     |
+    |     +-- Today, I enjoy working as a Software Developer at Optum Financial. Here are some of the technologies I use day-to-day for work:
+    |          |
+    |          +-- Python
+    |          |
+    |          +-- Linux
+    |          |
+    |          +-- SQL
+    |          |
+    |          +-- VS Code
+    |          |
+    |          +-- JIRA
+    |          |
+    |          +-- Git and GitLab
+    |          |
+    |          +-- Bamboo
+    |          |
+    |          +-- Swagger 
+    |
+    + --Experience Section
+    |     |
+    |     +-- Software Engineer at Optum Financial
+    |     |      |
+    |     |      +--May 2021 -- Present
+    |     |      |
+    |     |      +-- What I do
+    |     |      |       |
+    |     |      |       +-- Write proprietary software to parse files which came in a variety of different formats
+    |     |      |       |
+    |     |      |       +-- Generated Explanation of Benefit documents for medical providers using Python’s ReportLab library
+    |     |      |       |
+    |     |      |       +-- Managed production errors by implementing same-day fixes to ensure adherence of SLAs
+    |     |      |       |
+    |     |      |       +-- Developed CLI and API tools using argparse, Flask and other libraries for our Production Support, QA, and Implementation departments
+    |     |      |
+    |     +-- Software Engineer at Optum Financial
+    |     |      |
+    |     |      +--March 2019 -- May 2021
+    |     |      |
+    |     |      +-- What I do
+    |     |      |       |
+    |     |      |       +-- Automated testing processes with Python/Selenium apps and BASH scripts
+    |     |      |       |
+    |     |      |       +-- Streamlined processes with scripts to perform regression testing of complex legacy code
+    |     |      |       |
+    |     |      |       +-- Tested full-stack applications (Python, C#, iSeries, web and mobile)
+    |     |      |       |
+    |     |      |       +-- Collaborated with stakeholders to coordinate end-to-end testing in staging and production environments    
+    |     |      |
+    +-- Skills & Technologies
+    |      |
+    |      +-- Proficient in
+    |      |       |
+    |      |       +-- Python 2 & 3
+    |      |       |
+    |      |       +-- Linux (Redhat, CentOS, Ubuntu)
+    |      |       |
+    |      |       +-- iSeries & DB2 SQL
+    |      |       |
+    |      |       +-- Google Searching
+    |      |       |
+    |      |       +-- GreyLog
+    |      |       |
+    |      |       +-- Git/GitLab
+    |      |       |
+    |      |       +-- JIRA
+    |      |
+    |      +-- Confortable working with
+    |             |
+    |             +-- Django
+    |             |
+    |             +-- C#
+    |             |
+    |             +-- Microsoft SQL
+    |             |
+    |             +-- MySQL
+    |             |
+    |             +-- Swagger
+    |             |
+    |             +-- RabbitMQ
+    |             |
+    |             +-- HTML
+    |             |
+    |             +-- CSS
+    |             |
+    |             +-- Javascript
+    |    
+    +-- Cool Stuff I’ve Made Section
+    |      |
+    |      +-- Camacho Tigers Website
+    |             |
+    |             +-- A concept website I made for my Tae Kwondo instructor. I used Django as the backend framework to build it from the ground up. I took care of all of the HTML and styling using bootstrap, custom CSS, and javascript.
+    |                    
+    +-- Education Section
+    |      |
+    |      +-- University of Texas Dallas
+    |             |
+    |             +-- Erik Jonsson School of Engineering and Computer Science
+    |             |
+    |             +-- Mechanical Engineering Bachelor's Degree Program
+    |             |
+    |             +-- Aug 2011 – May 2014
+    |
+    +-- Social Media Section
+    |      |
+    |      +-- LinkedIn
+    |      |       |
+    |      |       +-- https://www.linkedin.com/in/irving-mtz/
+    |      |       
+    |      +-- GitHub
+    |      |       |
+    |      |       +-- https://github.com/irvingmp6
+    |      |       
+    |      +-- CodePen
+    |             |
+    |             +-- https://codepen.io/irvingmp6
+    |
+    +-- Resume Section
+    |      |
+    |      +-- Download PDF
+    |
+    +-- Let's Talk Section
+          |
+          +-- Feel free to send a message. I tend to check my email throughout the week, so you'll defitely hear back from me soon.
+          |
+          +-- My Email
+          |
+          +-- Send a message
+                 |
+                 +-- Name
+                 |
+                 +-- Email
+                 |
+                 +-- Message
