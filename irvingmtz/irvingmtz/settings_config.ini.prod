@@ -1,0 +1,9 @@
+# TODO: Change these to point to domain
+# TODO: Add linode server to list
+[HOSTS]
+ALLOWED_HOSTS = www.irvingmtz.com,irvingmtz.com
+
+#TODO: Create file and add key
+#{SECREY_KEY: 'tHiS-iS-tHeSeCrEt-KeY-123'}
+[SECRET_KEY]
+FILE_PATH=/etc/config.json

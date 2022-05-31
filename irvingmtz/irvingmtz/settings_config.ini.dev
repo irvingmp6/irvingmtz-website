@@ -1,0 +1,9 @@
+# TODO: Change these to point to domain
+# TODO: Add linode server to list
+[HOSTS]
+ALLOWED_HOSTS = www.irvingmtz.com,irvingmtz.com
+
+#TODO: Create file and the secret key to this file like this as a single line
+#{SECREY_KEY: 'tHiS-iS-tHeSeCrEt-KeY-123'}
+[SECRET_KEY]
+FILE_PATH=secret_key.ignore
