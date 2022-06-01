@@ -10,28 +10,39 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 import os
+import json
 from configparser import ConfigParser
+from distutils.util import strtobool
 from pathlib import Path
-
-config = ConfigParser()
-config.read('config.ini')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+parent_folder_path = os.path.dirname(__file__)
 
+# Get settings config file absolute path
+config_file_path = os.path.join(parent_folder_path, 'settings_config.ini')
+
+# Create config object using settings config file
+config = ConfigParser()
+config.read(config_file_path)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
-# Get SECRET_KEY from configured file path
+# Get SECRET_KEY from config object
 secret_key_file_path = config['SECRET_KEY']['FILE_PATH']
 with open(secret_key_file_path) as f:
-    SECRET_KEY = f[0]
-    # SECURITY WARNING: don't run with debug turned on in production!
-    DEBUG=config['DEBUG']['FLAG']
+    secret_key_config = json.load(f)
+    SECRET_KEY = secret_key_config['SECRET_KEY']
 
-ALLOWED_HOSTS = config['HOSTS']['ALLOWED_HOSTS']
+# Get Debug flag from config object
+DEBUG=strtobool(config['FLAGS']['DEBUG'])
 
+# Get allowed hosts from config object
+ALLOWED_HOSTS = config['HOSTS']['ALLOWED_HOSTS'].split(',')
+# Set to empty list if the only item is empty string
+if ALLOWED_HOSTS == ['']:
+    ALLOWED_HOSTS = []
 
 # Application definition
 
