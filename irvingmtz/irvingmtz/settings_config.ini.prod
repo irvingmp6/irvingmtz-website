@@ -3,7 +3,11 @@
 [HOSTS]
 ALLOWED_HOSTS = www.irvingmtz.com,irvingmtz.com
 
-#TODO: Create file and add key
-#{SECREY_KEY: 'tHiS-iS-tHeSeCrEt-KeY-123'}
+# TODO: Create file and the secret key to this file in json format
+# like this: {SECRET_KEY: 'tHiS-iS-tHeSeCrEt-KeY-123'}
 [SECRET_KEY]
-FILE_PATH=/etc/config.json
+FILE_PATH =
+
+[FLAGS]
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG=False

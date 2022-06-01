@@ -1,9 +1,10 @@
-# TODO: Change these to point to domain
-# TODO: Add linode server to list
 [HOSTS]
-ALLOWED_HOSTS = www.irvingmtz.com,irvingmtz.com
+ALLOWED_HOSTS=
 
-#TODO: Create file and the secret key to this file like this as a single line
-#{SECREY_KEY: 'tHiS-iS-tHeSeCrEt-KeY-123'}
+# TODO: Create file and the secret key to this file in json format
+# like this: {SECRET_KEY: 'tHiS-iS-tHeSeCrEt-KeY-123'}
 [SECRET_KEY]
-FILE_PATH=secret_key.ignore
+FILE_PATH=
+
+[FLAGS]
+DEBUG=True
